@@ -1,0 +1,1 @@
+{"name":"zveno-website","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"node server/leads.mjs","start":"node server/leads.mjs","check":"node --check dist/app.js && node --check server/leads.mjs","test":"node --test server/leads.test.mjs"},"engines":{"node":">=22"}}

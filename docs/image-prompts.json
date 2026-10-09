@@ -1,0 +1,82 @@
+[
+  {
+    "name": "hero-warehouse",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Wide 16:9 hero photograph of modern high-bay warehouse with tall racks, stocked pallets, forklift and workers. People and forklift on right half; dark, uncluttered left third for overlaid website headline. Wide cinematic perspective.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-711b70f5-21e7-4e6d-b928-0e5ff6ea3f70.png",
+    "png": "/tmp/zveno-images/hero-warehouse.png",
+    "webp": "/tmp/zveno-images/hero-warehouse.webp"
+  },
+  {
+    "name": "service-warehouse",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 photograph, medium candid side view of a warehouse worker scanning inventory cartons with a handheld barcode scanner beside storage racks. Warm daylight crossing aisle, tactile cardboard, subject at work.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-33732eba-7ec6-4703-89a0-eac5d18a66ab.png",
+    "png": "/tmp/zveno-images/service-warehouse.png",
+    "webp": "/tmp/zveno-images/service-warehouse.webp"
+  },
+  {
+    "name": "service-production",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 photograph of a production worker operating a modern industrial machine, medium view from workshop aisle, focused on machine controls. Distinct metal manufacturing setting, realistic guarded equipment.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-2f87dd0d-835f-4c65-a109-dd20eca2a917.png",
+    "png": "/tmp/zveno-images/service-production.png",
+    "webp": "/tmp/zveno-images/service-production.webp"
+  },
+  {
+    "name": "service-packing",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 close-up photograph of gloved packer's hands folding and packing plain corrugated cartons at a workbench. Partial emerald sleeve, kraft paper, intimate shallow depth of field.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-249faa82-90fa-4b4e-8520-d583c9c08e8d.png",
+    "png": "/tmp/zveno-images/service-packing.png",
+    "webp": "/tmp/zveno-images/service-packing.webp"
+  },
+  {
+    "name": "service-loading",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 candid photograph of two loaders moving a loaded pallet with a manual pallet jack across a spacious loading dock, full body side view, sense of practical teamwork.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-f1e60577-f91f-4e30-8d20-e16462d8d0ec.png",
+    "png": "/tmp/zveno-images/service-loading.png",
+    "webp": "/tmp/zveno-images/service-loading.webp"
+  },
+  {
+    "name": "gallery-exterior",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 architectural documentary photograph of a modern logistics complex exterior with multiple truck loading bays and parked trucks, early warm morning light, long shadows, expansive industrial yard, no close-up people.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-a7a2f842-74ee-4b2a-a2a2-25931ecf4d93.png",
+    "png": "/tmp/zveno-images/gallery-exterior.png",
+    "webp": "/tmp/zveno-images/gallery-exterior.webp"
+  },
+  {
+    "name": "gallery-manufacturing",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 wide interior photograph of a manufacturing facility, long rows of machinery, high steel roof, a few small distant workers in emerald workwear, warm skylight, dramatic spatial depth.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-b97ce35c-8c48-4981-8ee5-96a7de28ee56.png",
+    "png": "/tmp/zveno-images/gallery-manufacturing.png",
+    "webp": "/tmp/zveno-images/gallery-manufacturing.webp"
+  },
+  {
+    "name": "gallery-distribution",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 elevated overhead photograph inside a distribution center showing intersecting conveyor belts carrying plain brown parcels, organized geometric logistics flow, tiny distant workers, dark green structures and warm industrial light.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-d5ebc39e-affd-4c26-a001-3d25c595f6f8.png",
+    "png": "/tmp/zveno-images/gallery-distribution.png",
+    "webp": "/tmp/zveno-images/gallery-distribution.webp"
+  },
+  {
+    "name": "gallery-packaging",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 close-up photograph of an automated packaging line, sealed plain kraft cartons passing stainless steel rollers and machinery, precise tactile details, low camera angle, no people in foreground.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-c4e7be75-0f85-40bc-8018-84090071afc4.png",
+    "png": "/tmp/zveno-images/gallery-packaging.png",
+    "webp": "/tmp/zveno-images/gallery-packaging.webp"
+  },
+  {
+    "name": "gallery-terminal",
+    "prompt": "Use case: photorealistic-natural. Asset type: website photograph. Photorealistic candid industrial editorial photography, emerald workwear without logos where workers appear, warm sandy light, dark green shadows, real surface textures and natural imperfections. No smiling at camera, no text, logos or watermarks. Landscape 3:2 candid photograph of a warehouse terminal worker beside the open rear of a truck at a loading bay, reviewing a handheld device, three-quarter back view, truck interior behind, warm afternoon light.",
+    "mode": "built-in image_gen",
+    "original": "/Users/abdul/.codex/generated_images/01a120a9-8682-71d1-8480-08fc4a226ef7/exec-1da2a1e3-f68f-44a2-8b57-a8c4d6204c65.png",
+    "png": "/tmp/zveno-images/gallery-terminal.png",
+    "webp": "/tmp/zveno-images/gallery-terminal.webp"
+  }
+]
