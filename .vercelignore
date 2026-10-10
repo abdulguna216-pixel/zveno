@@ -1,0 +1,9 @@
+.git
+.openai
+.env
+.env.*
+README.md
+ZVENO_website_prompt.md
+docs
+server
+node_modules
