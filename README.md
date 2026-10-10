@@ -44,6 +44,8 @@ node --env-file=.env server/leads.mjs
 
 Исходники: https://github.com/abdulguna216-pixel/zveno
 
+Production: https://zveno-khaki.vercel.app
+
 Vercel публикует папку `dist` без сборки и установки зависимостей. Настройки зафиксированы в `vercel.json`: Framework — Other, Output Directory — dist, пустые Build Command и Install Command. Корень проекта — корень репозитория.
 
 После подключения репозитория к Vercel изменения ветки `main` автоматически публикуются. Переменные и токены Telegram не включены в репозиторий. Серверный Node.js-адаптер сохранён для отдельного размещения; в текущем статическом деплое приём заявок отключён.
