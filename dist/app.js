@@ -63,3 +63,42 @@ reducedMotion.addEventListener('change',()=>{if(reducedMotion.matches){autoPause
 finePointer.addEventListener('change',()=>{if(!finePointer.matches){autoPaused=true;updatePause();}});
 
 document.querySelector('#year').textContent=new Date().getFullYear();
+
+const serviceDetails = {
+  warehouse: 'Предоставляем сотрудников для приёмки, размещения, хранения и отгрузки товара. Они перемещают продукцию между зонами склада и помогают с пересчётом остатков. Состав команды подбираем с учётом объёма работ и графика смен.',
+  production: 'Подбираем персонал для сборки, сортировки и упаковки продукции, а также для вспомогательных операций на производственной линии. Учитываем требования к навыкам сотрудников, график смен и особенности вашего участка.',
+  packing: 'Комплектовщики собирают заказы по спискам и проверяют позиции и количество товара. Упаковщики подбирают тару, упаковывают и маркируют заказы, затем передают их в зону отгрузки.',
+  loading: 'Предоставляем грузчиков для погрузки, разгрузки, перемещения и укладки товаров и материалов. Разнорабочие помогают подготовить рабочие зоны и выполняют подсобные работы на складе или производстве. Состав команды зависит от задач объекта и объёма работ.'
+};
+const serviceDialog = document.querySelector('#service-dialog');
+const serviceDialogTitle = document.querySelector('#service-dialog-title');
+const serviceDialogDescription = document.querySelector('#service-dialog-description');
+const serviceDialogLabel = document.querySelector('#service-dialog-label');
+let serviceDialogTrigger;
+
+for (const button of document.querySelectorAll('[data-service-detail]')) {
+  button.addEventListener('click', () => {
+    const card = button.closest('.service-card');
+    serviceDialogTrigger = button;
+    serviceDialogTitle.textContent = card.querySelector('h3').textContent;
+    serviceDialogLabel.textContent = `${card.querySelector('.card-number').textContent} / Услуги`;
+    serviceDialogDescription.textContent = serviceDetails[button.dataset.serviceDetail];
+    serviceDialog.showModal();
+  });
+}
+serviceDialog.querySelector('.service-dialog-close').addEventListener('click', () => serviceDialog.close());
+let backdropPressed = false;
+const isServiceBackdrop = event => {
+  const {left, right, top, bottom} = serviceDialog.getBoundingClientRect();
+  return event.target === serviceDialog && (event.clientX < left || event.clientX > right || event.clientY < top || event.clientY > bottom);
+};
+serviceDialog.addEventListener('pointerdown', event => {backdropPressed = isServiceBackdrop(event);});
+serviceDialog.addEventListener('click', event => {
+  if (backdropPressed && isServiceBackdrop(event)) serviceDialog.close();
+  backdropPressed = false;
+});
+serviceDialog.addEventListener('close', () => {
+  if (!serviceDialog.open && (document.activeElement === document.body || serviceDialog.contains(document.activeElement))) {
+    serviceDialogTrigger?.focus({preventScroll:true});
+  }
+});
